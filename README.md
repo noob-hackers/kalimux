@@ -26,6 +26,9 @@ $ apt-get update -y
 $ apt-get upgrade -y
 ```
 ```
+$ pkg install git -y
+```
+```
 $ git clone https://github.com/noob-hackers/kalimux
 ```
 ```
@@ -48,7 +51,6 @@ $ ./start-kali.sh
 ```
 ```
 Now linux has been installed succesfullly in termux without root. But wait if you like to use kali linus as GUI in your android device then you need to download a application called VNC viewer after downloading that. just start kali linux in termux and paste that copied text in that and wait for it to install complete linux os in termux. After installation completes just apply this command in kali 
-
 ```
 ```
 $ vncserver-start
