@@ -41,8 +41,7 @@ $ ls
 $ sh kalimux.sh
 ```
 ```
-* So after installtion completes the text files will occur just copy it by long click on screen termux after that 
-
+* So after installtion completes the text files will occur just copy it by long click on text
 ```
 ```
 $ ./start-kali.sh
