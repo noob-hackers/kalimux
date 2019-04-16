@@ -12,7 +12,7 @@ Kalimux is an bash based script which automatically installs kali linux in termu
 [![License: MIT](https://img.shields.io/github/license/noob-hackers/ipdrone.svg)](https://github.com/noob-hackers/ipdrone)
 [![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#kalimux)
 
-
+![photo_2019-04-16_17-23-52](https://user-images.githubusercontent.com/49580304/56208939-f9cb5700-606f-11e9-9d4c-ae3080238309.jpg)
 
 ### Kalimux is available for
 
@@ -61,7 +61,7 @@ Now open VNC viewer and click on + icon and create host access
 Now the the gui of kali linux has been started in VNC viewer so start practising now......
 
 Note:- Don't remove termux from background while using klai linux in VNC viwer beacuse the vnc host files are present in termux app so...
-
+```
 ### Subscribe our channel on youtube
 https://www.youtube.com/noobhackers
 
