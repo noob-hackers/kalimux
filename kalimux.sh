@@ -55,10 +55,10 @@ clear
 echo  $p 'Please Wait ===+['$b'..........\          '$p']/'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'........./           '$p']|'
+echo  $p 'Please Wait ===+['$b'............./       '$p']|'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'...........\         '$p']/'
+echo  $p 'Please Wait ===+['$b'..............\      '$p']/'
 sleep 0.6
 clear
 echo  $p 'Please Wait ===+['$b'............./       '$p']\'
@@ -91,17 +91,6 @@ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 
 ls
 
-mkdir kali
-
-ls
-
-mv kali-binds kali
-mv kali-fs kali
-mv kali.sh kali
-mv start-kali.sh kali
-
-ls
-
 cd kalimux
 
 ls
@@ -118,16 +107,18 @@ rm -rf kalimux
 
 ls
 
-mv dekal.txt kali
-
-ls
-
-clear
-
-cd kali
-
-ls
-
+echo "$p------->$yellow [copy below command] $p<--------"
+echo " "
 cat dekal.txt
-
+echo " "
 echo "$p------->$yellow [installation completed] $p<--------"
+echo " "
+sleep 5.10
+echo "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
+echo " "
+sleep 4.30
+echo " "
+clear
+rm dekal.txt
+echo " "
+./start-kali.sh
