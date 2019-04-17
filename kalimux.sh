@@ -113,7 +113,7 @@ cat dekal.txt
 echo " "
 echo "$p------->$yellow [installation completed] $p<--------"
 echo " "
-sleep 5.10
+sleep 6.10
 echo "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
 echo " "
 sleep 4.30
