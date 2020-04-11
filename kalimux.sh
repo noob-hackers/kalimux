@@ -1,4 +1,4 @@
-#kalimux by N17R0 (noob hackers)
+#kalimux by N17R0 (maliksab hackers)
 
 #colours
 cyan='\033[1;36m'
@@ -23,7 +23,7 @@ echo " "
 echo "$green                   <--[Coded by N17R0]-->"
 
 echo "$cyan                ************************** "
-echo "$green              <~~(youtube.com/noobhackers)~~>"
+echo "$green              <~~(youtube.com/maliksabkacksers)~~>"
 echo " "
 echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
