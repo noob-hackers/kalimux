@@ -23,7 +23,7 @@ echo " "
 echo "$green                   <--[Coded by N17R0]-->"
 
 echo "$cyan                ************************** "
-echo "$green              <~~(youtube.com/noobhackers)~~>"
+echo "$green              <~~(YOUTUBE- Noob Hackers)~~>"
 echo " "
 echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
