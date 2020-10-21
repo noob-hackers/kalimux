@@ -98,8 +98,6 @@ __START__ :
 <img width="45%" src="https://user-images.githubusercontent.com/49580304/96665195-32a15780-1309-11eb-9268-2375c6227661.jpg"/>
 </p>
 
-## WATCH VIDEO [Termux]
-
 [![des](https://user-images.githubusercontent.com/49580304/96466915-3c2ea080-11df-11eb-8328-100ca165c12c.jpg)](https://bit.ly/2P2gMi3)
 
 ## CONNECT WITH US :
