@@ -7,7 +7,7 @@
 <a href="https://bit.ly/2P2gMi3"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">
-<a href="https://bit.ly/2P2gMi3"><img title="Kalimux" src="ps://user-images.githubusercontent.com/49580304/96665175-27e6c280-1309-11eb-9f3c-b950e0af5060.jpg"></a>
+<a href="https://bit.ly/2P2gMi3"><img title="Kalimux" src="https://user-images.githubusercontent.com/49580304/96665175-27e6c280-1309-11eb-9f3c-b950e0af5060.jpg"></a>
 </p>
 <p align="center">
 <a href="https://github.com/noob-hackers"><img title="Github" src="https://img.shields.io/badge/noob-hackers-brightgreen?style=for-the-badge&logo=github"></a>
@@ -60,9 +60,8 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 * `cd kalimux`
 * `ls`
 * `sh kalimux.sh`
-
-* So after installtion completes the text files will occur just copy it by long click on text
 ```
+* So after installtion completes the text files will occur just copy it by long click on text
 ```
 *`./start-kali.sh`
 ```
