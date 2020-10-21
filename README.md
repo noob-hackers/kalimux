@@ -63,11 +63,11 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 ```
 * So after installtion completes the text files will occur just copy it by long click on text
 ```
-*`./start-kali.sh`
+`./start-kali.sh`
 ```
 Now linux has been installed succesfullly in termux without root. But wait if you like to use kali linus as GUI in your android device then you need to download a application called VNC viewer after downloading that. just start kali linux in termux and paste that copied text in that and wait for it to install complete linux os in termux. After installation completes just apply this command in kali 
 ```
-*`vncserver-start`
+`vncserver-start`
 ```
 Now the server starts on host 127.0.0.1:5901
 
