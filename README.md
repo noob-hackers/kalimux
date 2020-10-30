@@ -120,3 +120,15 @@ __START__ :
 
 ## WARNING : 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
+
+## STILL YOU ARE FACING ANY PROBLEM TRY TO UPDATE THESE COMMON DRIVERS:
+
+First update your repo
+Second update your wireless card driver from http://linuxwireless.sipsolutions.net/en/users/Download/stable/__v210.html
+
+Third update your graphic card driver from https://www.kali.org/docs/general-use/install-nvidia-drivers-on-kali-linux/
+
+Thanks still you have any problem you can feel free to ask any help..
+
+ENJOY YOUR HACKING !!
+
