@@ -98,7 +98,7 @@ __START__ :
 <img width="45%" src="https://user-images.githubusercontent.com/49580304/96665196-3339ee00-1309-11eb-96ae-9fe719695d5e.jpg"/>
 </p>
 
-[![des](https://user-images.githubusercontent.com/49580304/96466915-3c2ea080-11df-11eb-8328-100ca165c12c.jpg)](https://bit.ly/2P2gMi3)
+[![des](https://user-images.githubusercontent.com/49580304/96466915-3c2ea080-11df-11eb-8328-100ca165c12c.jpg)](https://rebrand.ly/rcentvideo)
 
 ## CONNECT WITH US :
 
