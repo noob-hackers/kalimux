@@ -1,4 +1,16 @@
+#!/bin/bash
 #kalimux by N17R0 (noob hackers)
+
+#Progress bar function
+
+function ProgressBar() {
+    let _progress=(${1}*100/${2}*100)/100
+    let _done=(${_progress}*4)/10
+    let _left=40-$_done
+    _fill=$(printf "%${_done}s")
+    _empty=$(printf "%${_left}s")
+    printf "$p\rPlease Wait : $b[${_fill// /#}${_empty// /-}]$p ${_progress}%%"
+}
 
 #colours
 cyan='\033[1;36m'
@@ -8,8 +20,11 @@ yellow='\033[1;33m'
 b='\033[1;34m'
 p='\033[1;35m'
 reset='\033[0m'
-echo " "
-echo " $red
+# variables
+_start=1
+_end=100
+echo -e " "
+echo -e " $red
     ██╗  ██╗ █████╗ ██╗     ██╗███╗   ███╗██╗   ██╗██╗  ██╗
     ██║ ██╔╝██╔══██╗██║     ██║████╗ ████║██║   ██║╚██╗██╔╝
     █████╔╝ ███████║██║     ██║██╔████╔██║██║   ██║ ╚███╔╝
@@ -18,69 +33,29 @@ echo " $red
     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
                                                        v 1.0 "
 
-echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
-echo " "
-echo "$green                   <--[Coded by N17R0]-->"
+echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo -e " "
+echo -e "$green                   <--[Coded by N17R0]-->"
 
-echo "$cyan                ************************** "
-echo "$green              <~~(YOUTUBE- Noob Hackers)~~>"
-echo " "
-echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo -e "$cyan                ************************** "
+echo -e "$green              <~~(YOUTUBE- Noob Hackers)~~>"
+echo -e " "
+echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
-echo " "
-echo  $p 'Please Wait ===+['$b'./                   '$p']\'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'..\                  '$p']|'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'.../                 '$p']/'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'....\                '$p']\'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'...../               '$p']|'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'......./             '$p']/'
-sleep 0.5
-clear
-echo  $p 'Please Wait ===+['$b'........\            '$p']|'
-sleep 0.5
-clear
-echo  $p 'Please Wait ===+['$b'........../          '$p']\'
-sleep 0.5
-clear
-echo  $p 'Please Wait ===+['$b'..........\          '$p']/'
-sleep 0.5
-clear
-echo  $p 'Please Wait ===+['$b'............./       '$p']|'
-sleep 0.6
-clear
-echo  $p 'Please Wait ===+['$b'..............\      '$p']/'
-sleep 0.6
-clear
-echo  $p 'Please Wait ===+['$b'............./       '$p']\'
-sleep 0.6
-clear
-echo  $p 'Please Wait ===+['$b'...............\     '$p']|'
-sleep 0.5
-clear
-echo  $p 'Please Wait ===+['$b'................/    '$p']/'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'.................\   '$p']\'
-sleep 0.4
-clear
-echo  $p 'Please Wait ===+['$b'.................../ '$p']|'
-sleep 0.4
+echo -e " "
+
+for number in $(seq ${_start} ${_end})
+do
+    sleep 0.05
+    ProgressBar ${number} ${_end}
+done
+
 clear
 
-echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
+echo -e  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
-echo " "
-cd $HOME
+echo -e " "
+cd ~
 
 apt-get update -y
 pkg install wget -y
@@ -95,11 +70,11 @@ cd kalimux
 
 ls
 
-cp dekal.txt $HOME
+cp dekal.txt ~
 
 ls
 
-cd $HOME
+cd ~
 
 ls
 
@@ -107,18 +82,18 @@ rm -rf kalimux
 
 ls
 
-echo "$p------->$yellow [copy below command] $p<--------"
-echo " "
+echo -e "$p------->$yellow [copy below command] $p<--------"
+echo -e " "
 cat dekal.txt
-echo " "
-echo "$p------->$yellow [installation completed] $p<--------"
-echo " "
+echo -e " "
+echo -e "$p------->$yellow [installation completed] $p<--------"
+echo -e " "
 sleep 50.10
-echo "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
-echo " "
+echo -e "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
+echo -e " "
 sleep 4.30
-echo " "
+echo -e " "
 clear
 rm dekal.txt
-echo " "
+echo -e " "
 ./start-kali.sh
