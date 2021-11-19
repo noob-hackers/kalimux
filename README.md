@@ -31,7 +31,7 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 
 ## AVAILABLE ON :
 
-* Termux
+[Termux](https://play.google.com/store/app/details?id=com.termux)
 
 ### TESTED ON :
 
@@ -41,7 +41,8 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 * internet
 * 1GB storage
 * storage 400 MB
-* vnc vivewer app
+* vnc vivewer app 
++ [Install Vnc viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
 
 ## FEATURES :
 * [+] Stable and latest !
@@ -51,27 +52,38 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 
 ## INSTALLATION [Termux] :
 
-* `apt-get update -y`
-* `apt-get upgrade -y`
-* `pkg install python -y`
-* `pkg install python2 -y`
-* `pkg install git -y`
-* `pip install lolcat`
-* `git clone https://github.com/noob-hackers/kalimux`
-* `cd $HOME`
-* `ls`
-* `cd kalimux`
-* `ls`
-* `sh kalimux.sh`
-```
+First you need to download **installation file**
+<a id="raw-url" href="https://raw.githubusercontent.com/SadhukhanR/kalimux/dev2/init.sh">Download installation file </a>
+<br>
+Now open termux and go to your Download dir, Where installtion file(init.sh) was saved.
+<br>
+Paste it 
+
+
+          
+           chmod +x init.sh;./init.sh
+
+
+
+
+You will see starting installtion.
+
+
+
 * So after installtion completes the text files will occur just copy it by long click on text
-```
-`./start-kali.sh`
-```
+
+
+          
+          ./start-kali.sh
+
+
 Now linux has been installed succesfullly in termux without root. But wait if you like to use kali linus as GUI in your android device then you need to download a application called VNC viewer after downloading that. just start kali linux in termux and paste that copied text in that and wait for it to install complete linux os in termux. After installation completes just apply this command in kali 
-```
-`vncserver-start`
-```
+
+
+          vncserver-starts
+
+
+<pre>
 Now the server starts on host 127.0.0.1:5901
 
 Now open VNC viewer and click on + icon and create host access
@@ -87,7 +99,8 @@ Note:- Don't remove termux from background while using kali linux in VNC viwer b
 [+]--Note:- Don't delete any of the scripts included in core files
 
 [+]--new session and start TOR (tor) before starting the attack
-```
+</pre>
+
 ## USAGE OPTIONS [Termux] :
 
 __START__ :
